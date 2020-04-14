@@ -63,6 +63,7 @@
     <Folder Include="Scripts\Update" />
     <Folder Include="Scripts\Delete" />
     <Folder Include="Scripts\Alter" />
+    <Folder Include="AdvancedScripts" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Scripts\Create\Flower.sql" />
@@ -79,5 +80,6 @@
     <None Include="Scripts\Update\UpdateTask.sql" />
     <None Include="Scripts\Delete\DeleteTask.sql" />
     <None Include="Scripts\Alter\AlterTask.sql" />
+    <None Include="AdvancedScripts\UserFunction.sql" />
   </ItemGroup>
 </Project>
