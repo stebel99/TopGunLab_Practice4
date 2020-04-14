@@ -69,10 +69,9 @@
     <Build Include="Scripts\Create\PlantationFlower.sql" />
     <Build Include="Scripts\Create\WarehouseFlower.sql" />
     <Build Include="Scripts\Create\SupplyFlower.sql" />
-    <None Include="Scripts\Insert\First.sql" />
+    <None Include="Scripts\Insert\InsertTask.sql" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Scripts\Insert\Second.sql" />
     <None Include="Scripts\Select\SelectTask.sql" />
   </ItemGroup>
 </Project>
