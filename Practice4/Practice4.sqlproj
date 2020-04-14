@@ -59,6 +59,7 @@
     <Folder Include="Scripts" />
     <Folder Include="Scripts\Create" />
     <Folder Include="Scripts\Insert" />
+    <Folder Include="Scripts\Select" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Scripts\Create\Flower.sql" />
@@ -72,5 +73,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Scripts\Insert\Second.sql" />
+    <None Include="Scripts\Select\SelectTask.sql" />
   </ItemGroup>
 </Project>
