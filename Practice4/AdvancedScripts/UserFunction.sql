@@ -9,12 +9,12 @@ GO
 CREATE FUNCTION CanCreateSupply (@FlowerId INT, @PlantationId INT, @Amount INT)
 	RETURNS  BIT
 BEGIN
-	DECLARE @PlantationAmount INT, @Result INT
+	DECLARE @PlantationAmount INT, @Result INT --или  @Result NVARCHAR(5)
 	SET @PlantationAmount = (SELECT PF.[Amount] FROM [PlantationFlower] PF WHERE PF.FlowerId = @FlowerId AND PF.PlantationId = @PlantationId)
 	SET @Result = @PlantationAmount - @Amount
-	IF @Result >= 0
-		RETURN 1;
-	RETURN 0;
+	IF @Result >= 0 
+		RETURN 1; -- 'True'
+	RETURN 0; -- 'False'
 END;
 
 ----TEST
