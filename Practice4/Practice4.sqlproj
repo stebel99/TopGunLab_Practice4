@@ -82,5 +82,6 @@
     <None Include="Scripts\Alter\AlterTask.sql" />
     <None Include="AdvancedScripts\UserFunction.sql" />
     <None Include="AdvancedScripts\StoredProcedure.sql" />
+    <None Include="AdvancedScripts\Transaction.sql" />
   </ItemGroup>
 </Project>
